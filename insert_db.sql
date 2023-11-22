@@ -1,0 +1,1 @@
+INSERT INTO User(userId, userPass, isStudent, isSolver, schoolName, schoolCode) values('ryan@gmail.com', '1234',1,0,'Texas Highschool','0001');
