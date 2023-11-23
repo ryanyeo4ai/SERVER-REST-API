@@ -2,8 +2,8 @@ import redis
 import pymysql
 
 def db_connect():
-    conn = pymysql.connect(host='db.deepbackend.com',
-                           user='deepbackend', password='kissme!004', db='dbdeepbackend', charset='utf8')
+    conn = pymysql.connect(host='',
+                           user='', password='', db='', charset='utf8')
     cursor = conn.cursor()
 
     return conn, cursor
@@ -16,7 +16,7 @@ if __name__ == "__main__":
     r = redis.Redis("localhost")
     print(r.ping())
     conn, cursor = db_connect()
-    u_email = 'inchoon.yeo@gmail.com'
+    u_email = ''
     sql = "select * from User order by reward DESC limit 10"       
     #sql = "select * from dummy_gps2 where id = %s and timestep = %s"
     cursor.execute(sql)

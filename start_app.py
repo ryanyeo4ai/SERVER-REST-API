@@ -11,7 +11,7 @@ api = Api(app)
 school = {}
 count = 1
 
-engine = db.create_engine('mysql+pymysql://deepbackend:kissme!004@db.deepbackend.gabia.io/dbdeepbackend')
+engine = db.create_engine('')
 connection = engine.connect()
 metadata = db.MetaData()
 

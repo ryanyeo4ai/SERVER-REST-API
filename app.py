@@ -124,7 +124,7 @@ def image_upload():
 def paypal_upload():
     return render_template('paypal_upload.html')
 
-# engine = db.create_engine('mysql+pymysql://deepbackend:kissme!004@db.deepbackend.gabia.io/dbdeepbackend')
+# engine = db.create_engine('')
 # connection = engine.connect()
 
 #metadata = db.MetaData()

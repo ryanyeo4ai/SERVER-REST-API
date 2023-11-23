@@ -7,8 +7,8 @@ import json
 user_info = {}
 
 def db_connect():
-    conn = pymysql.connect(host='db.deepbackend.com',
-                           user='deepbackend', password='kissme!004', db='dbdeepbackend', charset='utf8')
+    conn = pymysql.connect(host='',
+                           user='', password='', db='', charset='utf8')
     cursor = conn.cursor()
 
     return conn, cursor
