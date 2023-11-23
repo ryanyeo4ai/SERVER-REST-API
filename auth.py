@@ -16,10 +16,10 @@ cors = CORS(app, resources={r"*": {"origins": "*"}})
 
 # mail.init_app(app)
 
-# app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+# app.config['MAIL_SERVER'] = ''
 # app.config['MAIL_PORT'] = 465
-# app.config['MAIL_USERNAME'] = 'paul.yeo94@gmail.com'
-# app.config['MAIL_PASSWORD'] = 'kissme!004'
+# app.config['MAIL_USERNAME'] = ''
+# app.config['MAIL_PASSWORD'] = ''
 # app.config['MAIL_USER_TLS'] = False
 # app.config['MAIL_USER_SSL'] = True
 # mail = Mail(app)
